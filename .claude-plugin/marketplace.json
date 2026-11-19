@@ -1,0 +1,12 @@
+{
+  "name": "sciyth-skills",
+  "owner": { "name": "Sciyth Studio" },
+  "metadata": { "description": "Sciyth Studio's shared Claude Code skills for Roblox games" },
+  "plugins": [
+    {
+      "name": "roblox-dev",
+      "source": "./plugins/roblox-dev",
+      "description": "Roblox game skills: UI, input, monetization, Studio MCP, playtesting, VFX, modelling, part builds and item icons"
+    }
+  ]
+}
