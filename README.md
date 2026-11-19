@@ -13,13 +13,13 @@ Add this to the game's `.claude/settings.json` (committed), so everyone who open
 ```json
 {
   "extraKnownMarketplaces": {
-    "sciyth-skills": { "source": { "source": "github", "repo": "Sciyth-Studio/sciyth-skills" } }
+    "sciyth-skills": { "source": { "source": "github", "repo": "Sciyth-Studio/Sciyth-Skills" } }
   },
   "enabledPlugins": { "roblox-dev@sciyth-skills": true }
 }
 ```
 
-Or install it by hand in Claude Code: `/plugin marketplace add Sciyth-Studio/sciyth-skills`, then `/plugin install roblox-dev@sciyth-skills`.
+Or install it by hand in Claude Code: `/plugin marketplace add Sciyth-Studio/Sciyth-Skills`, then `/plugin install roblox-dev@sciyth-skills`.
 
 Skills from a plugin show up namespaced, e.g. `roblox-dev:vfx`. Game-specific skills (a game's own rocks, zones or bosses) stay in that game's `.claude/skills/`.
 
